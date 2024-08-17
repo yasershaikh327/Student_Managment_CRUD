@@ -1,0 +1,3 @@
+use('StudentDB')
+
+db.getCollection("Student").insertOne({id:1,name:"yaser"})
